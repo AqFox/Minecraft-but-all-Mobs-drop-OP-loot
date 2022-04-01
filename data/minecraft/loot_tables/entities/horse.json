@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity"
+,
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:dirt_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

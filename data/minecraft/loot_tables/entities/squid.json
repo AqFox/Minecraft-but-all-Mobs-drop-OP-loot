@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity"
+,
+  "pools": [
+    {
+      "rolls": 13,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:dead_bush",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
